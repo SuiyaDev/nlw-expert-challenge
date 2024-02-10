@@ -11,7 +11,7 @@ interface NoteCardProps {
     }
 
     onNoteDeleted: (id: string) => void
-}
+}// Interface determina a tipagem padrão de cada variável
 
 export function NoteCard({ note, onNoteDeleted }: NoteCardProps) {
     return (

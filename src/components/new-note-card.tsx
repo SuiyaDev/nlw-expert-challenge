@@ -61,7 +61,7 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
         speechRecognition = new SpeechRecognitionAPI()
 
         speechRecognition.lang = 'pt-BR'
-        speechRecognition.continuous = false
+        speechRecognition.continuous = true
         speechRecognition.maxAlternatives = 1
         speechRecognition.interimResults = true
 
